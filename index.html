@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+  <title>Calculator</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="screen">
+      <input type="text" id="screen">
+    </div>
+    <div class="buttons">
+      <button onclick="clearbtn()" class="color">AC</button>
+      <button onclick="setnum('+')" class="color">+</button>
+      <button onclick="setnum('-')" class="color">-</button>
+      <button onclick="setnum('*')" class="color">*</button><br>
+      <button onclick="setnum('7')">7</button>
+      <button onclick="setnum('8')">8</button>
+      <button onclick="setnum('9')">9</button>
+      <button onclick="setnum('/')" class="color">/</button><br>
+      <button onclick="setnum('4')">4</button>
+      <button onclick="setnum('5')">5</button>
+      <button onclick="setnum('6')">6</button>
+      <button onclick="setnum('.')" class="color">.</button><br>
+      <button onclick="setnum('1')">1</button>
+      <button onclick="setnum('2')">2</button>
+      <button onclick="setnum('3')">3</button>
+      <button onclick="del()" class="color">DEL</button> <br>
+      <button onclick="setnum('00')">00</button>
+      <button onclick="setnum('0')">0</button>
+      <button onclick="setnum('%')">%</button>
+      <button onclick="ans()" class="color">=</button>
+    </div>
+  </div>
+</body>
+
+</html>
